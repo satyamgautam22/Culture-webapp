@@ -29,7 +29,7 @@ const Dashboard = () => {
 
     try {
       setStatusMessage('Uploading...');
-      await axios.post('http://localhost:4000/api/images/uploads/', formData, {
+      await axios.post('https://culture-webapp.onrender.com/api/images/uploads/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': 'Bearer ' + localStorage.getItem('token'), // JWT token from storage
