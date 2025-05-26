@@ -1,0 +1,100 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content {
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.login-content h2 {
+  font-size: 2rem;
+  color: #1a1a5e;
+}
+
+.utech-brand {
+  color: #1da1f2;
+}
+
+.login-content p {
+  margin: 0.5rem 0 1.5rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #1da1f2;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0d8ddb;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 0.75rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-right {
+  flex: 1;
+  background: linear-gradient(to top right, #4f46e5, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right img {
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Hide image on mobile */
+@media (max-width: 768px) {
+  .login-right img {
+    display: none;
+  }
+}
