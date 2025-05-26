@@ -20,7 +20,7 @@ const Homepage = () => {
 
   // Fetch uploaded images on mount
   useEffect(() => {
-    axios.get('http://localhost:4000/api/images/')
+    axios.get('https://culture-webapp.onrender.com/api/images/')
       .then((res) => setUploadedImages(res.data))
       .catch((err) => console.error('Error fetching images:', err));
   }, []);
