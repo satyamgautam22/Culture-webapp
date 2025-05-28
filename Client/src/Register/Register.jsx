@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // <-- Import useNavigate
 import './Register.css';
-import loginImage from '../assets/loginImage.png';
+import loginImage from '../assets/LoginImage.png';
 
 const Register = () => {
   const navigate = useNavigate(); // <-- Initialize the navigate function
